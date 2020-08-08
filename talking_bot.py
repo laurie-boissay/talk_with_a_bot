@@ -11,7 +11,8 @@ quitter = False
 while not quitter :
 	text = listen_text()
 	say_text(text)
-	if text == "quitter":
+	print("Texte enregistré : ", text)
+	if "quitter" in text :
 		quitter = True
 		say_text("A bientôt.")
 

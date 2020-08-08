@@ -22,7 +22,7 @@ def listen_text():
         audio = r.listen(source)
 
     try:
-        text = "Vous avez dis :\n\n" + r.recognize_google(audio, language="fr-FR")
+        text = "Vous avez dit :\n\n" + r.recognize_google(audio, language="fr-FR")
     except sr.UnknownValueError:
        text = "Je n'ai pas compris."
     except sr.RequestError as e:
