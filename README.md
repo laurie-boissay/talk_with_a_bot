@@ -2,4 +2,5 @@
 
 Test to use text recognition and text to speech.
 
-The bot repeat the sentence of the user(french speaker) in french.
+- The bot repeat the sentence of the user(french speaker) in french.
+- To quit the program, the user must say "quitter".
