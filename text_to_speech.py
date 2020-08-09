@@ -1,4 +1,4 @@
-# RESSOURCES _________________________________________________________________________
+# RESSOURCES
 # https://pypi.org/project/pyttsx3/
 # https://sonsuzdesign.blog/2020/06/07/building-a-speech-translator-in-python/
 

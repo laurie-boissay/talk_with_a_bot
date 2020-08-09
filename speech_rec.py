@@ -24,9 +24,9 @@ def listen_text():
     try:
         text = "Vous avez dit :\n" + r.recognize_google(audio, language="fr-FR") + "\n"
     except sr.UnknownValueError:
-       text = "Je n'ai pas compris."  + "\n"
+       text = "Je n'ai pas compris." + "\n"
     except sr.RequestError as e:
-       text = "Requête invalide : " + e  + "\n"
+       text = "Requête invalide : " + e + "\n"
 
     sys.stdout.write(text)
     return text

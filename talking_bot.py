@@ -7,20 +7,20 @@ from speech_rec import listen_text
 
 
 def main_loop():
-	quitter = False
+    quitter = False
 
-	while not quitter :
-		# repeate a sentence.
-		text = listen_text()
-		say_text(text)
-		
-		if "quitter" in text :
-			quitter = True
-			say_text("A bientôt.")
+    while not quitter :
+        # repeate a sentence.
+        text = listen_text()
+        say_text(text)
+        
+        if "quitter" in text :
+            quitter = True
+            say_text("A bientôt.")
 
 
 if __name__ == '__main__':
-	main_loop()
+    main_loop()
 
 
 
